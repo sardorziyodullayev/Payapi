@@ -1,0 +1,28 @@
+body {
+    background-color: #d0d9e1;
+    background-image: url("../img/body-bg-top.png");
+    background-repeat: no-repeat;
+    background-size: 780px 780px;
+    background-position: calc(50% + 500px) -178px;
+  }
+  
+  @include responsible(871px) {
+    body {
+      background-size: 949px 949px;
+      background-position: center -550px;
+    }
+  }
+  
+  @include responsible(769px) {
+    body {
+      background-size: 949px 949px;
+      background-position: center -650px;
+    }
+  }
+  
+  @include responsible(570px) {
+    body {
+      background-size: 780px 780px;
+      background-position: center -500px;
+    }
+  }

@@ -1,0 +1,172 @@
+.hero__inner {
+  display: flex;
+  align-items: center;
+}
+
+.hero__heading {
+  margin-right: 200px;
+  max-width: 546px;
+}
+
+.hero__title {
+  padding-bottom: 50px;
+  font-family: "DM Serif Display", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 72px;
+  letter-spacing: -0.553846px;
+  color: #36536b;
+}
+
+.hero__img {
+  border-radius: 35px;
+}
+
+.hero__form {
+  position: relative;
+}
+
+.hero__input {
+  padding: 16px 276px 16px 27px;
+  background: #fbfcfe;
+  box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+  border-radius: 24px;
+  border: none;
+}
+
+.hero__button {
+  position: absolute;
+  top: 0;
+  right: 58px;
+}
+
+.hero__text {
+  margin-left: 30px;
+  padding-top: 16px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  color: #6c8294;
+}
+
+.hero__text-link {
+  font-weight: 600;
+  color: #36536b;
+}
+
+@media only screen and (max-width: 1040px) {
+  .hero__heading {
+    margin-right: 100px;
+  }
+
+  .hero__title {
+    font-size: 60px;
+  }
+
+  .hero__input {
+    padding: 16px 200px 16px 27px;
+  }
+}
+
+@media only screen and (max-width: 860px) {
+  .hero__inner {
+    flex-direction: column-reverse;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .hero__heading {
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .hero__title {
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56px;
+  }
+
+  .hero__img {
+    margin-left: 50%;
+    margin-right: 50%;
+    margin-bottom: 48px;
+    width: 159px;
+    height: 300px;
+    border-radius: 15px;
+  }
+}
+
+@media only screen and (max-width: 570px) {
+  .hero__img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 124.61px;
+    height: 239.45px;
+  }
+
+  .hero__title {
+    font-size: 32px;
+    line-height: 36px;
+  }
+
+  .hero__form{
+    flex-direction: column;
+    margin-bottom: 90px;
+  }
+
+  .hero__input {
+    width: 327px;
+  }
+
+  .hero__button{
+    position: absolute;
+    display: block;
+    top: 70px;
+    right: 58px;
+    width: 327px;
+  }
+}
+
+@media only screen and (max-width: 560px){
+  .hero__button{
+    position: absolute;
+    right: 90px;
+  }
+} 
+
+@media only screen and (max-width: 510px){
+  .hero__button{
+    position: absolute;
+    right: 70px;
+  }
+} 
+
+@media only screen and (max-width: 490px){
+  .hero__button{
+    position: absolute;
+    right: 50px;
+  }
+}
+
+@media only screen and (max-width: 464px){
+  .hero__button{
+    position: absolute;
+    right: 40px;
+  }
+}
+
+@media only screen and (max-width: 428px){
+  .hero__button{
+    position: absolute;
+    right: 20px;
+  }
+}
+
+@media only screen and (max-width: 393px){
+  .hero__button{
+    position: absolute;
+    right: 5px;
+  }
+}
